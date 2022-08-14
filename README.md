@@ -1,4 +1,4 @@
-# QR code component
+# Product Preview card component
 
 Frontend Mentor challenge QR Code Component. View the live solution [here](https://gpt-anurag.github.io/product-preview-card-component/).
 

@@ -19,10 +19,6 @@
   --fs-p: 14px;
 }
 
-.mobile__img {
-  display: none;
-}
-
 /* base styles */
 
 * {
@@ -62,6 +58,10 @@ p {
 
 .price {
   align-self: center;
+}
+
+.mobile__img {
+  display: none;
 }
 
 .container {
