@@ -19,7 +19,6 @@
       .attribution {
         font-size: 11px;
         text-align: center;
-        display: none;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
@@ -29,33 +28,45 @@
   </head>
   <body>
     <main class="container">
-      <section class="product-card">
-        <div class="product-img">
-          <img src="./images/image-product-mobile.jpg" alt="perfume bottle" />
-        </div>
-        <div class="product-info">
-          <div class="brand-name">PERFUME</div>
-          <h1>Gabrielle Essence Eau De Parfum A</h1>
+      <div class="product-card">
+        <figure>
+          <img
+            src="./images/image-product-mobile.jpg"
+            alt="perfume bottle"
+            class="mobile__img"
+          />
+          <img
+            src="./images/image-product-desktop.jpg"
+            alt="perfume"
+            class="desktop__img"
+          />
+        </figure>
+
+        <section class="product-info">
+          <span class="brand-name">PERFUME</span>
+          <h1>Gabrielle Essence Eau De Parfum</h1>
           <p>
-            floral, solar and voluptuous interpretation composed by Olivier
+            A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
-          <div class="product-price">
-            <div class="product-discount-price">$149.99</div>
-            <div class="product-previous-price">$169.99</div>
+          <div class="price">
+            <span class="discount-price">$149.99</span>
+            <small class="actual-price">$169.99</small>
           </div>
           <button>
-            <img src="./images/icon-cart.svg" alt="cart icon" />
-            Add to Cart
+            <img src="./images/icon-cart.svg" alt="cart" /><span
+              class="cart-text"
+              >Add to Cart</span
+            >
           </button>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">Anurag Gupta</a>.
     </div>
   </body>
 </html>
