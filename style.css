@@ -140,3 +140,10 @@ button {
     row-gap: 15px;
   }
 }
+
+footer {
+  background-color: var(--primary-cream);
+  height: 0vh;
+  position: relative;
+  bottom: 30px;
+}
