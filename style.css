@@ -8,6 +8,7 @@
 
 :root {
   --primary-dark-cyan: hsl(158, 36%, 37%);
+  --primary-vary-dark-cyan: hsl(156, 42%, 18%);
   --primary-cream: hsl(30, 38%, 92%);
 
   --neutral-dark-blue: hsl(212, 21%, 14%);
@@ -99,10 +100,14 @@ p {
 button {
   border: none;
   background-color: var(--primary-dark-cyan);
-  height: 40px;
   border-radius: 8px;
   height: 45px;
   align-self: end;
+}
+
+button:active,
+button:hover {
+  background-color: var(--primary-vary-dark-cyan);
 }
 
 .cart-text {
